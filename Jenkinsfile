@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
         steps {
-          // Get some code from a GitHub repository
+          // Get some code from a GitHub
           git branch: 'main', url: 'https://github.com/SaranyaaUK/python-flask-sonarqube.git'
         }
     }
