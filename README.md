@@ -1,3 +1,3 @@
 # flask-lessons
 Different stages of a flask app
-Check build
+Check auto-build
