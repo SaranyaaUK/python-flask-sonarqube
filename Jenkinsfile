@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
         steps {
           // Get some code from a GitHub repository
-          git branch: 'main', url: 'https://github.com/SaranyaaUK/vat-calculator.git'
+          git branch: 'main', url: 'https://github.com/SaranyaaUK/python-flask-sonarqube.git'
         }
     }
     stage('SonarQube Analysis') {
